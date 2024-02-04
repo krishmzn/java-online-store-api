@@ -20,4 +20,37 @@ public class Product {
     private String name;
     private int quality;
     private double price;
+
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setName (String name) {
+        this.name = name;
+    }
+
+    public void setQuality(int quality) {
+        this.quality = quality;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getQuality() {
+        return quality;
+    }
+
+    public double getPrice() {
+        return price;
+    }
 }
